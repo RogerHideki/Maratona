@@ -3,10 +3,10 @@ project(Maratona)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Aula002 Aulas/Aula002/Aula002Ex01.cpp)
-add_executable(Aula003 Aulas/Aula003/Aula003Ex01.cpp)
-add_executable(Aula004 Aulas/Aula004/Aula004Ex01.cpp)
-add_executable(Aula005 Aulas/Aula005/Aula005Ex01.cpp)
+add_executable(Aula002Ex01 Aulas/Aula002/Aula002Ex01.cpp)
+add_executable(Aula003Ex01 Aulas/Aula003/Aula003Ex01.cpp)
+add_executable(Aula004Ex01 Aulas/Aula004/Aula004Ex01.cpp)
+add_executable(Aula005Ex01 Aulas/Aula005/Aula005Ex01.cpp)
 add_executable(Aula006Ex01 Aulas/Aula006/Aula006Ex01.cpp)
 add_executable(Aula006Ex02 Aulas/Aula006/Aula006Ex02.cpp)
 

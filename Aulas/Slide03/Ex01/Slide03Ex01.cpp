@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void dfs(vector<vector<int>> &grafo, vector<bool> &visitados, int &u) {
+void dfs(vector<vector<int>> &grafo, vector<bool> &visitados, int u) {
     visitados[u] = true;
     for (int i = 0; i < grafo[u].size(); i++) {
         int v = grafo[u][i];
@@ -25,11 +25,11 @@ int main() {
         cin >> x >> y;
         x--, y--;
 
-        matrizAdjacencia[x][y]; // Lista de adjacência
-        matrizAdjacencia[y][x]; // Lista de adjacência
+        matrizAdjacencia[x][y]; // Matriz de adjacência
+        matrizAdjacencia[y][x]; // Matriz de adjacência
 
-        listaAdjacencia[x].push_back(y); // Matriz de adjacência
-        listaAdjacencia[y].push_back(x); // Matriz de adjacência
+        listaAdjacencia[x].push_back(y); // Lista de adjacência
+        listaAdjacencia[y].push_back(x); // Lista de adjacência
     }
 
     int u;

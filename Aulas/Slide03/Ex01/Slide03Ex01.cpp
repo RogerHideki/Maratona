@@ -9,7 +9,6 @@ void dfs(vector<vector<int>> &grafo, vector<bool> &visitados, int u) {
         int v = grafo[u][i];
         if (!visitados[v]) dfs(grafo, visitados, v);
     }
-
 }
 
 int main() {
@@ -25,8 +24,8 @@ int main() {
         cin >> x >> y;
         x--, y--;
 
-        matrizAdjacencia[x][y]; // Matriz de adjacência
-        matrizAdjacencia[y][x]; // Matriz de adjacência
+        matrizAdjacencia[x][y] = 1; // Matriz de adjacência
+        matrizAdjacencia[y][x] = 1; // Matriz de adjacência
 
         listaAdjacencia[x].push_back(y); // Lista de adjacência
         listaAdjacencia[y].push_back(x); // Lista de adjacência

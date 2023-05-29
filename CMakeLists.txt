@@ -70,6 +70,7 @@ add_executable(beecrowdEx1074 beecrowd/Exs10XX/Ex1074/beecrowdEx1074.cpp)
 add_executable(beecrowdEx1075 beecrowd/Exs10XX/Ex1075/beecrowdEx1075.cpp)
 add_executable(beecrowdEx1078 beecrowd/Exs10XX/Ex1078/beecrowdEx1078.cpp)
 add_executable(beecrowdEx1080 beecrowd/Exs10XX/Ex1080/beecrowdEx1080.cpp)
+add_executable(beecrowdEx1082 beecrowd/Exs10XX/Ex1082/beecrowdEx1082.cpp)
 
 add_executable(beecrowdEx1110 beecrowd/Exs11XX/Ex1110/beecrowdEx1110.cpp)
 add_executable(beecrowdEx1114 beecrowd/Exs11XX/Ex1114/beecrowdEx1114.cpp)
@@ -83,6 +84,7 @@ add_executable(beecrowdEx1172 beecrowd/Exs11XX/Ex1172/beecrowdEx1172.cpp)
 add_executable(beecrowdEx1173 beecrowd/Exs11XX/Ex1173/beecrowdEx1173.cpp)
 add_executable(beecrowdEx1176 beecrowd/Exs11XX/Ex1176/beecrowdEx1176.cpp)
 add_executable(beecrowdEx1180 beecrowd/Exs11XX/Ex1180/beecrowdEx1180.cpp)
+add_executable(beecrowdEx1198 beecrowd/Exs11XX/Ex1198/beecrowdEx1198.cpp)
 
 add_executable(beecrowdEx1212 beecrowd/Exs12XX/Ex1212/beecrowdEx1212.cpp)
 add_executable(beecrowdEx1221 beecrowd/Exs12XX/Ex1221/beecrowdEx1221.cpp)
@@ -107,6 +109,7 @@ add_executable(beecrowdEx1471 beecrowd/Exs14XX/Ex1471/beecrowdEx1471.cpp)
 add_executable(beecrowdEx1547 beecrowd/Exs15XX/Ex1547/beecrowdEx1547.cpp)
 add_executable(beecrowdEx1548 beecrowd/Exs15XX/Ex1548/beecrowdEx1548.cpp)
 add_executable(beecrowdEx1561 beecrowd/Exs15XX/Ex1561/beecrowdEx1561.cpp)
+add_executable(beecrowdEx1583 beecrowd/Exs15XX/Ex1583/beecrowdEx1583.cpp)
 add_executable(beecrowdEx1589 beecrowd/Exs15XX/Ex1589/beecrowdEx1589.cpp)
 
 add_executable(beecrowdEx1607 beecrowd/Exs16XX/Ex1607/beecrowdEx1607.cpp)
@@ -116,6 +119,7 @@ add_executable(beecrowdEx1676 beecrowd/Exs16XX/Ex1676/beecrowdEx1676.cpp)
 add_executable(beecrowdEx1763 beecrowd/Exs17XX/Ex1763/beecrowdEx1763.cpp)
 
 add_executable(beecrowdEx1835 beecrowd/Exs18XX/Ex1835/beecrowdEx1835.cpp)
+add_executable(beecrowdEx1866 beecrowd/Exs18XX/Ex1866/beecrowdEx1866.cpp)
 
 add_executable(beecrowdEx1909 beecrowd/Exs19XX/Ex1909/beecrowdEx1909.cpp)
 add_executable(beecrowdEx1933 beecrowd/Exs19XX/Ex1933/beecrowdEx1933.cpp)
@@ -151,6 +155,8 @@ add_executable(beecrowdEx2455 beecrowd/Exs24XX/Ex2455/beecrowdEx2455.cpp)
 add_executable(beecrowdEx2478 beecrowd/Exs24XX/Ex2478/beecrowdEx2478.cpp)
 
 add_executable(beecrowdEx2514 beecrowd/Exs25XX/Ex2514/beecrowdEx2514.cpp)
+add_executable(beecrowdEx2534 beecrowd/Exs25XX/Ex2534/beecrowdEx2534.cpp)
+add_executable(beecrowdEx2562 beecrowd/Exs25XX/Ex2562/beecrowdEx2562.cpp)
 add_executable(beecrowdEx2598 beecrowd/Exs25XX/Ex2598/beecrowdEx2598.cpp)
 
 add_executable(beecrowdEx2653 beecrowd/Exs26XX/Ex2653/beecrowdEx2653.cpp)
@@ -167,8 +173,10 @@ add_executable(beecrowdEx2839 beecrowd/Exs28XX/Ex2839/beecrowdEx2839.cpp)
 add_executable(beecrowdEx2896 beecrowd/Exs28XX/Ex2896/beecrowdEx2896.cpp)
 
 add_executable(beecrowdEx2936 beecrowd/Exs29XX/Ex2936/beecrowdEx2936.cpp)
+add_executable(beecrowdEx2987 beecrowd/Exs29XX/Ex2987/beecrowdEx2987.cpp)
 
 add_executable(beecrowdEx3046 beecrowd/Exs30XX/Ex3046/beecrowdEx3046.cpp)
+add_executable(beecrowdEx3047 beecrowd/Exs30XX/Ex3047/beecrowdEx3047.cpp)
 add_executable(beecrowdEx3048 beecrowd/Exs30XX/Ex3048/beecrowdEx3048.cpp)
 add_executable(beecrowdEx3055 beecrowd/Exs30XX/Ex3055/beecrowdEx3055.cpp)
 

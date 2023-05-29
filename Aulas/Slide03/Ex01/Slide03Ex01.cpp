@@ -24,15 +24,15 @@ int main() {
         cin >> x >> y;
         x--, y--;
 
-        matrizAdjacencia[x][y] = 1; // Matriz de adjacência
-        matrizAdjacencia[y][x] = 1; // Matriz de adjacência
+        matrizAdjacencia[x][y] = 1;
+        matrizAdjacencia[y][x] = 1;
 
-        listaAdjacencia[x].push_back(y); // Lista de adjacência
-        listaAdjacencia[y].push_back(x); // Lista de adjacência
+        listaAdjacencia[x].push_back(y);
+        listaAdjacencia[y].push_back(x);
     }
 
     int u;
-    vector<bool> visitados(n, 0);
+    vector<bool> visitados(n, false);
 
     cin >> u;
 

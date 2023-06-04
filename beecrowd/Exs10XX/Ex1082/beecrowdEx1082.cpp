@@ -1,10 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <set>
 
 using namespace std;
 
+set<int> componente;
+
 void dfs(vector<vector<int>> &grafo, vector<bool> &visitados, int u) {
     visitados[u] = true;
+    componente.insert(u);
 
     int size = grafo[u].size();
     for (int i = 0; i < size; i++) {
@@ -34,29 +38,23 @@ int main() {
         }
 
         vector<bool> visitados(v, false);
-        vector<bool> impressos(v, false);
-        int componentes = 0;
+        int nComponentes = 0;
 
-        cout << "Case #" << caso << ":" << endl;
+        cout << "Case #" << caso << ":\n";
 
         for (int i = 0; i < v; i++) {
             if (!visitados[i]) {
+                componente.clear();
                 dfs(grafo, visitados, i);
+                nComponentes++;
 
-                for (int j = 0; j < v; j++) {
-                    if (visitados[j] && !impressos[j]) {
-                        impressos[j] = true;
-
-                        cout << (char) (j + 'a') << ',';
-                    }
-                }
-                cout << endl;
-
-                componentes++;
+                for (set<int>::iterator it = componente.begin(); it != componente.end(); it++)
+                    cout << (char) (*it + 'a') << ',';
+                cout << "\n";
             }
         }
 
-        cout << componentes << " connected components" << endl << endl;
+        cout << nComponentes << " connected components\n\n";
     }
 
     return 0;

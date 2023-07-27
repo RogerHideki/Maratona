@@ -3,6 +3,8 @@ project(Maratona)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(Teste Teste.cpp)
+
 add_executable(Slide01Ex01 Aulas/Slide01/Ex01/Slide01Ex01.cpp)
 add_executable(Slide01Ex02 Aulas/Slide01/Ex02/Slide01Ex02.cpp)
 add_executable(Slide01Ex03 Aulas/Slide01/Ex03/Slide01Ex03.cpp)
@@ -11,6 +13,8 @@ add_executable(Slide01Ex04 Aulas/Slide01/Ex04/Slide01Ex04.cpp)
 add_executable(Slide03Ex01 Aulas/Slide03/Ex01/Slide03Ex01.cpp)
 add_executable(Slide03Ex02 Aulas/Slide03/Ex02/Slide03Ex02.cpp)
 add_executable(Slide03Ex03 Aulas/Slide03/Ex03/Slide03Ex03.cpp)
+
+add_executable(Slide04Ex01 Aulas/Slide04/Ex01/Slide04Ex01.cpp)
 
 add_executable(beecrowdEx1000 beecrowd/Exs10XX/Ex1000/beecrowdEx1000.cpp)
 add_executable(beecrowdEx1001 beecrowd/Exs10XX/Ex1001/beecrowdEx1001.cpp)
@@ -77,6 +81,7 @@ add_executable(beecrowdEx1110 beecrowd/Exs11XX/Ex1110/beecrowdEx1110.cpp)
 add_executable(beecrowdEx1114 beecrowd/Exs11XX/Ex1114/beecrowdEx1114.cpp)
 add_executable(beecrowdEx1143 beecrowd/Exs11XX/Ex1143/beecrowdEx1143.cpp)
 add_executable(beecrowdEx1144 beecrowd/Exs11XX/Ex1144/beecrowdEx1144.cpp)
+add_executable(beecrowdEx1152 beecrowd/Exs11XX/Ex1152/beecrowdEx1152.cpp)
 add_executable(beecrowdEx1153 beecrowd/Exs11XX/Ex1153/beecrowdEx1153.cpp)
 add_executable(beecrowdEx1157 beecrowd/Exs11XX/Ex1157/beecrowdEx1157.cpp)
 add_executable(beecrowdEx1170 beecrowd/Exs11XX/Ex1170/beecrowdEx1170.cpp)
@@ -203,3 +208,7 @@ add_executable(CodeforcesEx0004A Codeforces/Exs00XX/Exs0004/A/CodeforcesEx0004A.
 add_executable(CodeforcesEx1833A Codeforces/Exs18XX/Exs1833/A/CodeforcesEx1833A.cpp)
 add_executable(CodeforcesEx1833B Codeforces/Exs18XX/Exs1833/B/CodeforcesEx1833B.cpp)
 add_executable(CodeforcesEx1833C Codeforces/Exs18XX/Exs1833/C/CodeforcesEx1833C.cpp)
+
+add_executable(CodeforcesEx1851A Codeforces/Exs18XX/Exs1851/A/CodeforcesEx1851A.cpp)
+add_executable(CodeforcesEx1851B Codeforces/Exs18XX/Exs1851/B/CodeforcesEx1851B.cpp)
+add_executable(CodeforcesEx1851C Codeforces/Exs18XX/Exs1851/C/CodeforcesEx1851C.cpp)

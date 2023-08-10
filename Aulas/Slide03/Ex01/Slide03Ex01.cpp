@@ -9,6 +9,7 @@ void dfs(vector<vector<int>> &grafo, vector<bool> &visitados, int u) {
         int v = grafo[u][i];
         if (!visitados[v]) dfs(grafo, visitados, v);
     }
+    //for (auto v: grafo[u]) if (!visitados[v]) dfs(grafo, visitados, v);
 }
 
 int main() {

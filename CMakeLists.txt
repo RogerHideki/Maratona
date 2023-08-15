@@ -17,6 +17,7 @@ add_executable(Slide03Ex03 Aulas/Slide03/Ex03/Slide03Ex03.cpp)
 add_executable(Slide04Ex01 Aulas/Slide04/Ex01/Slide04Ex01.cpp)
 
 add_executable(Slide05Ex01 Aulas/Slide05/Ex01/Slide05Ex01.cpp)
+add_executable(Slide05Ex02 Aulas/Slide05/Ex02/Slide05Ex02.cpp)
 
 add_executable(beecrowdEx1000 beecrowd/Exs10XX/Ex1000/beecrowdEx1000.cpp)
 add_executable(beecrowdEx1001 beecrowd/Exs10XX/Ex1001/beecrowdEx1001.cpp)

@@ -36,8 +36,6 @@ int main() {
         cin >> x >> y >> peso;
         grafo[x].push_back({y, peso});
     }
-
     bellman_ford(grafo, 0);
-
     return 0;
 }

@@ -36,37 +36,20 @@ int main() {
         cin >> l >> r;
         if (r - l == 0) {
             if (isPrime(r)) cout << -1 << '\n';
+            else if (!(r & 1)) cout << 2 << ' ' << r - 2 << '\n';
             else {
-                if (r & 1) {
-
-                } else cout << 2 << ' ' << r - 2 << '\n';
+                for (int i = 3; i < r / 2; i += 2) {
+                    if (r % i == 0) {
+                        cout << i << ' ' << r - i << '\n';
+                        break;
+                    }
+                }
             }
-
-            continue;
+        } else {
+            if (r < 4) cout << -1 << '\n';
+            else if (r & 1) cout << 2 << ' ' << r - 3 << '\n';
+            else cout << 2 << ' ' << r - 2 << '\n';
         }
     }
-
-
     return 0;
 }
-
-//01 return -1
-//02 return -1
-//03 return -1
-//04 return 2 2
-//05 return -1
-//06 return 2 4
-//07 return -1
-//08
-//09 return 3 6
-//10
-//11 return -1
-//12
-//13 return -1
-//14
-//15 return 3 12
-//16
-//
-//21 return 3 18
-//
-//25 return 5 5

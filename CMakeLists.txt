@@ -216,3 +216,7 @@ add_executable(CodeforcesEx1833C Codeforces/Exs18XX/Exs1833/C/CodeforcesEx1833C.
 add_executable(CodeforcesEx1851A Codeforces/Exs18XX/Exs1851/A/CodeforcesEx1851A.cpp)
 add_executable(CodeforcesEx1851B Codeforces/Exs18XX/Exs1851/B/CodeforcesEx1851B.cpp)
 add_executable(CodeforcesEx1851C Codeforces/Exs18XX/Exs1851/C/CodeforcesEx1851C.cpp)
+
+add_executable(CodeforcesEx1872A Codeforces/Exs18XX/Exs1872/A/CodeforcesEx1872A.cpp)
+add_executable(CodeforcesEx1872B Codeforces/Exs18XX/Exs1872/B/CodeforcesEx1872B.cpp)
+add_executable(CodeforcesEx1872C Codeforces/Exs18XX/Exs1872/C/CodeforcesEx1872C.cpp)

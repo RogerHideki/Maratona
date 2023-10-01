@@ -16,7 +16,7 @@ int main() {
     }
 
     for (map<string, double>::iterator it = produtos.begin(); it != produtos.end(); it++) {
-        cout << it->first << " " << it->second <<endl;
+        cout << it->first << " " << it->second << endl;
     }
 
     cin >> item;
@@ -24,7 +24,7 @@ int main() {
     if (it == produtos.end()) {
         cout << "Produto não existe no mapa!" << endl;
     } else {
-        cout << "Achou: " <<it->first << " " << it->second <<endl;
+        cout << "Achou: " << it->first << " " << it->second << endl;
     }
 
     return 0;

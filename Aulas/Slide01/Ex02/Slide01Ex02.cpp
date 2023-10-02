@@ -9,11 +9,8 @@ int main() {
     q.push(7);
     q.push(10);
     q.push(6);
-
-    while(q.size()) {
-        cout << q.front() << " saiu da fila!" << endl;
+    while (q.size()) {
+        cout << q.front() << " saiu da fila!" << '\n';
         q.pop();
     }
-
-    //cout << q.front() << " " << q.back() << endl;
 }

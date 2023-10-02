@@ -26,20 +26,14 @@ void bfs(vector<vector<int>> &grafo, int u, vector<int> &distancia) {
 
 int main() {
     int n, m, x, y;
-
     cin >> n >> m;
-
     vector<vector<int>> grafo(n);
     vector<int> distancia(n, INF);
-
     for (int i = 0; i < m; i++) {
         cin >> x >> y;
         x--, y--;
-
         grafo[x].push_back(y);
         grafo[y].push_back(x);
     }
-
-
     return 0;
 }

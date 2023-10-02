@@ -5,24 +5,19 @@ using namespace std;
 
 int main() {
     int t;
-
     cin >> t;
     while (t--) {
         int n, id;
         set<int> s;
-
         cin >> n;
         while (n--) {
             cin >> id;
             s.insert(id);
         }
-
         for (set<int>::iterator it = s.begin(); it != s.end(); it++) {
-            cout << *it << endl;
+            cout << *it << '\n';
         }
-
-        cout << s.size() << endl;
+        cout << s.size() << '\n';
     }
-
     return 0;
 }

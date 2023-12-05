@@ -227,3 +227,7 @@ add_executable(CodeforcesEx1881C Codeforces/Exs18XX/Exs1881/C/CodeforcesEx1881C.
 
 add_executable(CodeforcesEx1899A Codeforces/Exs18XX/Exs1899/A/CodeforcesEx1899A.cpp)
 add_executable(CodeforcesEx1899C Codeforces/Exs18XX/Exs1899/C/CodeforcesEx1899C.cpp)
+
+add_executable(codeforces-ex-1907-a Codeforces/exs-19xx/exs-1907/a/codeforces-ex-1907-a.cpp)
+add_executable(codeforces-ex-1907-b Codeforces/exs-19xx/exs-1907/b/codeforces-ex-1907-b.cpp)
+add_executable(codeforces-ex-1907-c Codeforces/exs-19xx/exs-1907/c/codeforces-ex-1907-c.cpp)

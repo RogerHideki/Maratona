@@ -11,25 +11,16 @@
  */
 class Solution {
 public:
-    string ans = "";
+    vector<int> ans;
 
     void f(TreeNode *node) {
-        ans += to_string(node->val);
-        if (node->left) {
-            ans += "(";
-            f(node->left);
-            ans += ")";
-        }
-        if (node->right) {
-            if (!node->left) ans += "()";
-            ans += "(";
-            f(node->right);
-            ans += ")";
-        }
+        if (node->left) f(node->left);
+        ans.push_back(node->val);
+        if (node->right) f(node->right);
     }
 
-    string tree2str(TreeNode *root) {
-        f(root);
+    vector<int> inorderTraversal(TreeNode *root) {
+        if (root) f(root);
         return ans;
     }
 };

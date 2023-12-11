@@ -207,7 +207,7 @@ add_executable(beecrowdEx3399 beecrowd/Exs33XX/Ex3399/beecrowdEx3399.cpp)
 add_executable(beecrowdEx3405 beecrowd/Exs34XX/Ex3405/beecrowdEx3405.cpp)
 add_executable(beecrowdEx3424 beecrowd/Exs34XX/Ex3424/beecrowdEx3424.cpp)
 
-add_executable(CodeforcesEx0004A codeforces/exs-00xx/Exs0004/A/CodeforcesEx0004A.cpp)
+add_executable(CodeforcesEx0004A codeforces/exs-00xx/exs-0004/A/CodeforcesEx0004A.cpp)
 
 add_executable(CodeforcesEx1833A codeforces/exs-18xx/Exs1833/A/CodeforcesEx1833A.cpp)
 add_executable(CodeforcesEx1833B codeforces/exs-18xx/Exs1833/B/CodeforcesEx1833B.cpp)

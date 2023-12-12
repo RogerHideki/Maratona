@@ -147,8 +147,6 @@ add_executable(beecrowdEx2172 beecrowd/Exs21XX/Ex2172/beecrowdEx2172.cpp)
 add_executable(beecrowdEx2174 beecrowd/Exs21XX/Ex2174/beecrowdEx2174.cpp)
 add_executable(beecrowdEx2180 beecrowd/Exs21XX/Ex2180/beecrowdEx2180.cpp)
 
-#add_executable(beecrowdEx2200 beecrowd/Exs22XX/Ex2200/beecrowdEx2200.cpp)
-
 add_executable(beecrowdEx2312 beecrowd/Exs23XX/Ex2312/beecrowdEx2312.cpp)
 add_executable(beecrowdEx2328 beecrowd/Exs23XX/Ex2328/beecrowdEx2328.cpp)
 add_executable(beecrowdEx2339 beecrowd/Exs23XX/Ex2339/beecrowdEx2339.cpp)
@@ -199,35 +197,35 @@ add_executable(beecrowdEx3129 beecrowd/Exs31XX/Ex3129/beecrowdEx3129.cpp)
 add_executable(beecrowdEx3139 beecrowd/Exs31XX/Ex3139/beecrowdEx3139.cpp)
 add_executable(beecrowdEx3170 beecrowd/Exs31XX/Ex3170/beecrowdEx3170.cpp)
 
-#add_executable(beecrowdEx3200 beecrowd/Exs32XX/Ex3200/beecrowdEx3200.cpp)
-
 add_executable(beecrowdEx3342 beecrowd/Exs33XX/Ex3342/beecrowdEx3342.cpp)
 add_executable(beecrowdEx3399 beecrowd/Exs33XX/Ex3399/beecrowdEx3399.cpp)
 
 add_executable(beecrowdEx3405 beecrowd/Exs34XX/Ex3405/beecrowdEx3405.cpp)
 add_executable(beecrowdEx3424 beecrowd/Exs34XX/Ex3424/beecrowdEx3424.cpp)
 
-add_executable(CodeforcesEx0004A codeforces/exs-00xx/exs-0004/A/CodeforcesEx0004A.cpp)
+add_executable(codeforces-ex-0004-a codeforces/exs-00xx/exs-0004/a/codeforces-ex-0004-a.cpp)
 
-add_executable(CodeforcesEx1833A codeforces/exs-18xx/Exs1833/A/CodeforcesEx1833A.cpp)
-add_executable(CodeforcesEx1833B codeforces/exs-18xx/Exs1833/B/CodeforcesEx1833B.cpp)
-add_executable(CodeforcesEx1833C codeforces/exs-18xx/Exs1833/C/CodeforcesEx1833C.cpp)
+add_executable(codeforces-ex-1833-a codeforces/exs-18xx/exs-1833/a/codeforces-ex-1833-a.cpp)
+add_executable(codeforces-ex-1833-b codeforces/exs-18xx/exs-1833/b/codeforces-ex-1833-b.cpp)
+add_executable(codeforces-ex-1833-c codeforces/exs-18xx/exs-1833/c/codeforces-ex-1833-c.cpp)
 
-add_executable(CodeforcesEx1851A codeforces/exs-18xx/Exs1851/A/CodeforcesEx1851A.cpp)
-add_executable(CodeforcesEx1851B codeforces/exs-18xx/Exs1851/B/CodeforcesEx1851B.cpp)
-add_executable(CodeforcesEx1851C codeforces/exs-18xx/Exs1851/C/CodeforcesEx1851C.cpp)
+add_executable(codeforces-ex-1851-a codeforces/exs-18xx/exs-1851/a/codeforces-ex-1851-a.cpp)
+add_executable(codeforces-ex-1851-b codeforces/exs-18xx/exs-1851/b/codeforces-ex-1851-b.cpp)
+add_executable(codeforces-ex-1851-c codeforces/exs-18xx/exs-1851/c/codeforces-ex-1851-c.cpp)
 
-add_executable(CodeforcesEx1872A codeforces/exs-18xx/Exs1872/A/CodeforcesEx1872A.cpp)
-add_executable(CodeforcesEx1872B codeforces/exs-18xx/Exs1872/B/CodeforcesEx1872B.cpp)
-add_executable(CodeforcesEx1872C codeforces/exs-18xx/Exs1872/C/CodeforcesEx1872C.cpp)
+add_executable(codeforces-ex-1872-a codeforces/exs-18xx/exs-1872/a/codeforces-ex-1872-a.cpp)
+add_executable(codeforces-ex-1872-b codeforces/exs-18xx/exs-1872/b/codeforces-ex-1872-b.cpp)
+add_executable(codeforces-ex-1872-c codeforces/exs-18xx/exs-1872/c/codeforces-ex-1872-c.cpp)
 
-add_executable(CodeforcesEx1881A codeforces/exs-18xx/Exs1881/A/CodeforcesEx1881A.cpp)
-add_executable(CodeforcesEx1881B codeforces/exs-18xx/Exs1881/B/CodeforcesEx1881B.cpp)
-add_executable(CodeforcesEx1881C codeforces/exs-18xx/Exs1881/C/CodeforcesEx1881C.cpp)
+add_executable(codeforces-ex-1881-a codeforces/exs-18xx/exs-1881/a/codeforces-ex-1881-a.cpp)
+add_executable(codeforces-ex-1881-b codeforces/exs-18xx/exs-1881/b/codeforces-ex-1881-b.cpp)
+add_executable(codeforces-ex-1881-c codeforces/exs-18xx/exs-1881/c/codeforces-ex-1881-c.cpp)
 
-add_executable(CodeforcesEx1899A codeforces/exs-18xx/Exs1899/A/CodeforcesEx1899A.cpp)
-add_executable(CodeforcesEx1899C codeforces/exs-18xx/Exs1899/C/CodeforcesEx1899C.cpp)
+add_executable(codeforces-ex-1899-a codeforces/exs-18xx/exs-1899/a/codeforces-ex-1899-a.cpp)
+add_executable(codeforces-ex-1899-c codeforces/exs-18xx/exs-1899/c/codeforces-ex-1899-c.cpp)
 
 add_executable(codeforces-ex-1907-a codeforces/exs-19xx/exs-1907/a/codeforces-ex-1907-a.cpp)
 add_executable(codeforces-ex-1907-b codeforces/exs-19xx/exs-1907/b/codeforces-ex-1907-b.cpp)
 add_executable(codeforces-ex-1907-c codeforces/exs-19xx/exs-1907/c/codeforces-ex-1907-c.cpp)
+
+add_executable(uva-ex-00459 uva/exs-004xx/ex-00459/uva-ex-00459.cpp)

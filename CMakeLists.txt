@@ -3,23 +3,6 @@ project(Maratona)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(teste teste.cpp)
-
-add_executable(Slide01Ex01 aulas/Slide01/Ex01/Slide01Ex01.cpp)
-add_executable(Slide01Ex02 aulas/Slide01/Ex02/Slide01Ex02.cpp)
-add_executable(Slide01Ex03 aulas/Slide01/Ex03/Slide01Ex03.cpp)
-add_executable(Slide01Ex04 aulas/Slide01/Ex04/Slide01Ex04.cpp)
-
-add_executable(Slide03Ex01 aulas/Slide03/Ex01/Slide03Ex01.cpp)
-add_executable(Slide03Ex02 aulas/Slide03/Ex02/Slide03Ex02.cpp)
-add_executable(Slide03Ex03 aulas/Slide03/Ex03/Slide03Ex03.cpp)
-
-add_executable(Slide04Ex01 aulas/Slide04/Ex01/Slide04Ex01.cpp)
-
-add_executable(Slide05Ex01 aulas/Slide05/Ex01/Slide05Ex01.cpp)
-add_executable(Slide05Ex02 aulas/Slide05/Ex02/Slide05Ex02.cpp)
-add_executable(Slide05Ex03 aulas/Slide05/Ex03/Slide05Ex03.cpp)
-
 add_executable(beecrowd-ex-1000 beecrowd/exs-10xx/ex-1000/beecrowd-ex-1000.cpp)
 add_executable(beecrowd-ex-1001 beecrowd/exs-10xx/Ex1001/beecrowdEx1001.cpp)
 add_executable(beecrowd-ex-1002 beecrowd/exs-10xx/Ex1002/beecrowdEx1002.cpp)
@@ -228,4 +211,19 @@ add_executable(codeforces-ex-1907-a codeforces/exs-19xx/exs-1907/a/codeforces-ex
 add_executable(codeforces-ex-1907-b codeforces/exs-19xx/exs-1907/b/codeforces-ex-1907-b.cpp)
 add_executable(codeforces-ex-1907-c codeforces/exs-19xx/exs-1907/c/codeforces-ex-1907-c.cpp)
 
+add_executable(map recursos/estruturas-de-dados/map/map.cpp)
+add_executable(queue recursos/estruturas-de-dados/queue/queue.cpp)
+add_executable(set recursos/estruturas-de-dados/set/set.cpp)
+add_executable(stack recursos/estruturas-de-dados/stack/stack.cpp)
+
+add_executable(depth-first-search recursos/grafos/depth-first-search/depth-first-search.cpp)
+add_executable(breadth-first-search recursos/grafos/breadth-first-search/breadth-first-search.cpp)
+add_executable(flood-fill recursos/grafos/flood-fill/flood-fill.cpp)
+add_executable(kruskal recursos/grafos/kruskal/kruskal.cpp)
+add_executable(dijkstra recursos/grafos/dijkstra/dijkstra.cpp)
+add_executable(bellman-ford recursos/grafos/bellman-ford/bellman-ford.cpp)
+add_executable(floyd-warshall recursos/grafos/floyd-warshall/floyd-warshall.cpp)
+
 add_executable(uva-ex-00459 uva/exs-004xx/ex-00459/uva-ex-00459.cpp)
+
+add_executable(teste teste.cpp)

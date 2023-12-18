@@ -215,6 +215,8 @@ add_executable(kattis-ex-dominoes2 kattis/exs-d/ex-dominoes2/kattis-ex-dominoes2
 
 add_executable(kattis-ex-hello kattis/exs-h/ex-hello/kattis-ex-hello.cpp)
 
+add_executable(kattis-ex-reachableroads kattis/exs-r/ex-reachableroads/kattis-ex-reachableroads.cpp)
+
 add_executable(kattis-ex-wheresmyinternet kattis/exs-w/ex-wheresmyinternet/kattis-ex-wheresmyinternet.cpp)
 
 add_executable(map recursos/estruturas-de-dados/map/map.cpp)

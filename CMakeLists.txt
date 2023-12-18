@@ -211,6 +211,8 @@ add_executable(codeforces-ex-1907-a codeforces/exs-19xx/exs-1907/a/codeforces-ex
 add_executable(codeforces-ex-1907-b codeforces/exs-19xx/exs-1907/b/codeforces-ex-1907-b.cpp)
 add_executable(codeforces-ex-1907-c codeforces/exs-19xx/exs-1907/c/codeforces-ex-1907-c.cpp)
 
+add_executable(kattis-ex-dominoes2 kattis/exs-d/ex-dominoes2/kattis-ex-dominoes2.cpp)
+
 add_executable(kattis-ex-hello kattis/exs-h/ex-hello/kattis-ex-hello.cpp)
 
 add_executable(kattis-ex-wheresmyinternet kattis/exs-w/ex-wheresmyinternet/kattis-ex-wheresmyinternet.cpp)

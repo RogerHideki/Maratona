@@ -234,6 +234,8 @@ add_executable(dijkstra recursos/grafos/dijkstra/dijkstra.cpp)
 add_executable(bellman-ford recursos/grafos/bellman-ford/bellman-ford.cpp)
 add_executable(floyd-warshall recursos/grafos/floyd-warshall/floyd-warshall.cpp)
 
+add_executable(uva-ex-00352 uva/exs-003xx/ex-00352/uva-ex-00352.cpp)
+
 add_executable(uva-ex-00459 uva/exs-004xx/ex-00459/uva-ex-00459.cpp)
 add_executable(uva-ex-00469 uva/exs-004xx/ex-00469/uva-ex-00469.cpp)
 

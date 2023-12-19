@@ -235,6 +235,7 @@ add_executable(bellman-ford recursos/grafos/bellman-ford/bellman-ford.cpp)
 add_executable(floyd-warshall recursos/grafos/floyd-warshall/floyd-warshall.cpp)
 
 add_executable(uva-ex-00459 uva/exs-004xx/ex-00459/uva-ex-00459.cpp)
+add_executable(uva-ex-00469 uva/exs-004xx/ex-00469/uva-ex-00469.cpp)
 
 add_executable(uva-ex-11749 uva/exs-117xx/ex-11749/uva-ex-11749.cpp)
 

@@ -211,6 +211,10 @@ add_executable(codeforces-ex-1907-a codeforces/exs-19xx/exs-1907/a/codeforces-ex
 add_executable(codeforces-ex-1907-b codeforces/exs-19xx/exs-1907/b/codeforces-ex-1907-b.cpp)
 add_executable(codeforces-ex-1907-c codeforces/exs-19xx/exs-1907/c/codeforces-ex-1907-c.cpp)
 
+add_executable(kattis-ex-amoebas kattis/exs-a/ex-amoebas/kattis-ex-amoebas.cpp)
+
+add_executable(kattis-ex-countingstars kattis/exs-c/ex-countingstars/kattis-ex-countingstars.cpp)
+
 add_executable(kattis-ex-dominoes2 kattis/exs-d/ex-dominoes2/kattis-ex-dominoes2.cpp)
 
 add_executable(kattis-ex-hello kattis/exs-h/ex-hello/kattis-ex-hello.cpp)
@@ -242,6 +246,8 @@ add_executable(uva-ex-00469 uva/exs-004xx/ex-00469/uva-ex-00469.cpp)
 add_executable(uva-ex-00572 uva/exs-005xx/ex-00572/uva-ex-00572.cpp)
 
 add_executable(uva-ex-00871 uva/exs-008xx/ex-00871/uva-ex-00871.cpp)
+
+add_executable(uva-ex-11518 uva/exs-115xx/ex-11518/uva-ex-11518.cpp)
 
 add_executable(uva-ex-11749 uva/exs-117xx/ex-11749/uva-ex-11749.cpp)
 

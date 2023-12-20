@@ -29,7 +29,7 @@ int main() {
     cin >> t;
     while (t--) {
         grid.clear();
-        while (cin >> s && (s[0] == 'L' || s[0] == 'W')) grid.push_back(s);
+        while (cin >> s && (s[0] == 'L' || s[0] == 'W')) grid.emplace_back(s);
         cin >> uy;
         m = grid.size();
         n = grid[0].size();

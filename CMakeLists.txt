@@ -217,6 +217,8 @@ add_executable(kattis-ex-countingstars kattis/exs-c/ex-countingstars/kattis-ex-c
 
 add_executable(kattis-ex-dominoes2 kattis/exs-d/ex-dominoes2/kattis-ex-dominoes2.cpp)
 
+add_executable(kattis-ex-gold kattis/exs-g/ex-gold/kattis-ex-gold.cpp)
+
 add_executable(kattis-ex-hello kattis/exs-h/ex-hello/kattis-ex-hello.cpp)
 
 add_executable(kattis-ex-reachableroads kattis/exs-r/ex-reachableroads/kattis-ex-reachableroads.cpp)
@@ -248,6 +250,7 @@ add_executable(uva-ex-00572 uva/exs-005xx/ex-00572/uva-ex-00572.cpp)
 add_executable(uva-ex-00871 uva/exs-008xx/ex-00871/uva-ex-00871.cpp)
 
 add_executable(uva-ex-11518 uva/exs-115xx/ex-11518/uva-ex-11518.cpp)
+add_executable(uva-ex-11561 uva/exs-115xx/ex-11561/uva-ex-11561.cpp)
 
 add_executable(uva-ex-11749 uva/exs-117xx/ex-11749/uva-ex-11749.cpp)
 

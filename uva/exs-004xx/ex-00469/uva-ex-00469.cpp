@@ -4,21 +4,20 @@
 
 using namespace std;
 
-vector<string> grid, gridAux;
-int m, n;
+vector<vector<int>> grid;
+int m, n, color;
+vector<int> colors;
 vector<int> dx = {-1, -1, 0, 1, 1, 1, 0, -1};
 vector<int> dy = {0, 1, 1, 1, 0, -1, -1, -1};
 
-int floodfill(int ux, int uy) {
-    gridAux[ux][uy] = '.';
-    int ans = 1;
+void floodfill(int ux, int uy) {
+    grid[ux][uy] = color;
+    colors[color]++;
     for (int i = 0; i < 8; i++) {
         int vx = ux + dx[i];
         int vy = uy + dy[i];
-        if (vx < 0 || vx >= m || vy < 0 || vy >= n || gridAux[vx][vy] != 'W') continue;
-        ans += floodfill(vx, vy);
+        if (vx >= 0 && vx < m && vy >= 0 && vy < n && grid[vx][vy] == -1) floodfill(vx, vy);
     }
-    return ans;
 }
 
 int main() {
@@ -29,18 +28,30 @@ int main() {
     cin >> t;
     while (t--) {
         grid.clear();
-        while (cin >> s && (s[0] == 'L' || s[0] == 'W')) grid.emplace_back(s);
+        while (cin >> s && (s[0] == 'L' || s[0] == 'W')) {
+            n = s.size();
+            vector<int> vr(n);
+            for (int i = 0; i < n; i++) vr[i] = (s[i] == 'L') ? -2 : -1;
+            grid.emplace_back(vr);
+        }
         cin >> uy;
         m = grid.size();
-        n = grid[0].size();
-        gridAux = grid;
-        cout << floodfill(stoi(s) - 1, uy - 1) << '\n';
+        colors.assign(1, 0);
+        color = 0;
+        floodfill(stoi(s) - 1, uy - 1);
+        cout << colors[color] << '\n';
         getline(cin, s);
         while (getline(cin, s) && !s.empty()) {
             stringstream ss(s);
             ss >> ux >> uy;
-            gridAux = grid;
-            cout << floodfill(ux - 1, uy - 1) << '\n';
+            ux--;
+            uy--;
+            if (grid[ux][uy] == -1) {
+                colors.emplace_back(0);
+                color++;
+                floodfill(ux, uy);
+            }
+            cout << colors[grid[ux][uy]] << '\n';
         }
         if (t) cout << '\n';
     }

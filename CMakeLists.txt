@@ -249,6 +249,8 @@ add_executable(uva-ex-00572 uva/exs-005xx/ex-00572/uva-ex-00572.cpp)
 
 add_executable(uva-ex-00871 uva/exs-008xx/ex-00871/uva-ex-00871.cpp)
 
+add_executable(uva-ex-11094 uva/exs-110xx/ex-11094/uva-ex-11094.cpp)
+
 add_executable(uva-ex-11518 uva/exs-115xx/ex-11518/uva-ex-11518.cpp)
 add_executable(uva-ex-11561 uva/exs-115xx/ex-11561/uva-ex-11561.cpp)
 

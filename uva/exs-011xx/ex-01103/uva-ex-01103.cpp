@@ -11,8 +11,12 @@ vector<int> dx = {-1, 0, 1, 0};
 vector<int> dy = {0, 1, 0, -1};
 vector<int> colors;
 int color;
-vector<pair<int, char>> sequence = {{1, 'A'}, {5, 'D'}, {3, 'J'},
-                                    {2, 'K'}, {4, 'S'}, {0, 'W'}};
+vector<pair<int, char>> sequence = {{1, 'A'},
+                                    {5, 'D'},
+                                    {3, 'J'},
+                                    {2, 'K'},
+                                    {4, 'S'},
+                                    {0, 'W'}};
 
 void floodfill(int ux, int uy, char target) {
     grid[ux][uy] = '.';
@@ -30,7 +34,6 @@ void floodfill(int ux, int uy, char target) {
         }
     }
 }
-
 
 int main() {
     ios_base::sync_with_stdio(false);

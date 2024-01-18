@@ -9,7 +9,7 @@ public:
         for (int j = 1; j < n; j++) {
             for (int i = 0; i < j; i++) {
                 lli diff = (lli) nums[j] - nums[i];
-                int subsequences = memo[i][diff];
+                int subsequences = (memo[i].find(diff) != memo[i].end()) ? memo[i][diff] : 0;
                 memo[j][diff] += subsequences + 1;
                 ans += subsequences;
             }

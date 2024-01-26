@@ -213,6 +213,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(kattis-ex-amoebas kattis/exs-a/ex-amoebas/kattis-ex-amoebas.cpp)
 
+#add_executable(kattis-ex-builddeps kattis/exs-b/ex-builddeps/kattis-ex-builddeps.cpp)
+
 #add_executable(kattis-ex-countingstars kattis/exs-c/ex-countingstars/kattis-ex-countingstars.cpp)
 
 #add_executable(kattis-ex-dominoes2 kattis/exs-d/ex-dominoes2/kattis-ex-dominoes2.cpp)

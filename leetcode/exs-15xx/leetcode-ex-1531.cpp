@@ -2,7 +2,7 @@ class Solution {
 public:
     string s;
     int n;
-    vector <vector<int>> memo;
+    vector<vector<int>> memo;
 
     int count(int amount) {
         if (amount >= 100) return 3;
@@ -30,6 +30,8 @@ public:
     }
 
     int getLengthOfOptimalCompression(string s, int k) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         this->s = s;
         n = s.size();
         memo.assign(n, vector<int>(n + 1, -1));

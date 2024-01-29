@@ -50,7 +50,6 @@ int main() {
     }
     cin >> y;
     toposort(m[y]);
-    n = ts.size() - 1;
-    for (int i = n; i >= 0; i--) cout << ts[i] << '\n';
+    for (int i = ts.size() - 1; i >= 0; i--) cout << ts[i] << '\n';
     return 0;
 }

@@ -256,6 +256,7 @@ add_executable(floyd-warshall recursos/grafos/floyd-warshall/floyd-warshall.cpp)
 
 #add_executable(uva-ex-00852 uva/exs-008xx/ex-00852/uva-ex-00852.cpp)
 #add_executable(uva-ex-00871 uva/exs-008xx/ex-00871/uva-ex-00871.cpp)
+#add_executable(uva-ex-00872 uva/exs-008xx/ex-00872/uva-ex-00872.cpp)
 
 #add_executable(uva-ex-01103 uva/exs-011xx/ex-01103/uva-ex-01103.cpp)
 

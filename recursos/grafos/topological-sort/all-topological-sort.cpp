@@ -14,14 +14,14 @@ void allToposort() {
         isSorted = false;
         visiteds[u] = true;
         for (auto &v: graph[u]) inDegrees[v]--;
-        ts.push_back(u);
+        ts.emplace_back(u);
         allToposort();
         visiteds[u] = false;
         for (auto &v: graph[u]) inDegrees[v]++;
         ts.pop_back();
     }
     if (!isSorted) return;
-    for (auto &u: ts) cout << u << " ";
+    for (auto &u: ts) cout << u << ' ';
     cout << '\n';
 }
 

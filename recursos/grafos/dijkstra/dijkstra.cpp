@@ -1,49 +1,42 @@
-#include <iostream>
-#include <vector>
-#include <utility>
-#include <queue>
-#include <climits>
+#include <bits/stdc++.h>
 
-#define INF INT_MAX/2
+#define pii pair<int, int>
+#define INF 1000000000
 
 using namespace std;
 
-vector<int> dist;
+vector<vector<pii>> graph;
+vector<int> dists;
 
-void dijkstra(vector<vector<pair<int, int>>> &grafo, int s) {
-    int n = grafo.size();
-    dist.assign(n, INF);
-    dist[s] = 0;
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-    pq.push({0, s});
+void dijkstra(int s) {
+    priority_queue<pii, vector<pii >, greater<pii>> pq;
+    pq.emplace(0, s);
+    dists[s] = 0;
     while (!pq.empty()) {
-        pair<int, int> front = pq.top();
+        auto [distU, u] = pq.top();
         pq.pop();
-        int u = front.second;
-        if (front.first == dist[u]) {
-            for (int i = 0; i < grafo[u].size(); i++) {
-                pair<int, int> aresta = grafo[u][i];
-                int v = aresta.first;
-                int custo = aresta.second;
-                if (dist[u] + custo < dist[v]) {
-                    dist[v] = dist[u] + custo;
-                    pq.push({dist[v], v});
-                }
-            }
+        if (distU != dists[u]) continue;
+        for (auto &edge: graph[u]) {
+            int v = edge.first, distV = distU + edge.second;
+            if (dists[v] <= distV) continue;
+            dists[v] = distV;
+            pq.emplace(distV, v);
         }
     }
 }
 
 int main() {
-    int n, m;
-    int x, y, peso;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int n, m, u, v, w;
     cin >> n >> m;
-    vector<vector<pair<int, int>>> grafo(n);
+    graph.assign(n, {});
     for (int i = 0; i < m; i++) {
-        cin >> x >> y >> peso;
-        grafo[x].push_back({y, peso});
+        cin >> u >> v >> w;
+        graph[u].emplace_back(v, w);
     }
-    dijkstra(grafo, 0);
-    for (int i = 0; i < n; i++) cout << dist[i] << '\n';
+    dists.assign(n, INF);
+    dijkstra(0);
+    for (auto &dist: dists) cout << dist << '\n';
     return 0;
 }

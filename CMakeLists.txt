@@ -110,6 +110,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(beecrowd-ex-1676 beecrowd/exs-16xx/ex-1676/beecrowd-ex-1676.cpp)
 
 #add_executable(beecrowd-ex-1763 beecrowd/exs-17xx/ex-1763/beecrowd-ex-1763.cpp)
+add_executable(beecrowd-ex-1790 beecrowd/exs-17xx/ex-1790/beecrowd-ex-1790.cpp)
 
 #add_executable(beecrowd-ex-1835 beecrowd/exs-18xx/ex-1835/beecrowd-ex-1835.cpp)
 #add_executable(beecrowd-ex-1866 beecrowd/exs-18xx/ex-1866/beecrowd-ex-1866.cpp)
@@ -142,6 +143,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(beecrowd-ex-2413 beecrowd/exs-24xx/ex-2413/beecrowd-ex-2413.cpp)
 #add_executable(beecrowd-ex-2416 beecrowd/exs-24xx/ex-2416/beecrowd-ex-2416.cpp)
+#add_executable(beecrowd-ex-2429 beecrowd/exs-24xx/ex-2429/beecrowd-ex-2429.cpp)
 #add_executable(beecrowd-ex-2434 beecrowd/exs-24xx/ex-2434/beecrowd-ex-2434.cpp)
 #add_executable(beecrowd-ex-2440 beecrowd/exs-24xx/ex-2440/beecrowd-ex-2440.cpp)
 #add_executable(beecrowd-ex-2455 beecrowd/exs-24xx/ex-2455/beecrowd-ex-2455.cpp)

@@ -1,6 +1,6 @@
 int xlr8 = []() {
     ios_base::sync_with_stdio(false);
-    cin.tie();
+    cin.tie(NULL);
     return 0;
 }();
 

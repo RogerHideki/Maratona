@@ -213,6 +213,10 @@ add_executable(beecrowd-ex-1790 beecrowd/exs-17xx/ex-1790/beecrowd-ex-1790.cpp)
 #add_executable(codeforces-ex-1907-b codeforces/exs-19xx/exs-1907/b/codeforces-ex-1907-b.cpp)
 #add_executable(codeforces-ex-1907-c codeforces/exs-19xx/exs-1907/c/codeforces-ex-1907-c.cpp)
 
+#add_executable(codeforces-ex-1986-a codeforces/exs-19xx/exs-1986/a/codeforces-ex-1986-a.cpp)
+#add_executable(codeforces-ex-1986-b codeforces/exs-19xx/exs-1986/b/codeforces-ex-1986-b.cpp)
+#add_executable(codeforces-ex-1986-c codeforces/exs-19xx/exs-1986/c/codeforces-ex-1986-c.cpp)
+
 #add_executable(kattis-ex-amoebas kattis/exs-a/ex-amoebas/kattis-ex-amoebas.cpp)
 
 #add_executable(kattis-ex-builddeps kattis/exs-b/ex-builddeps/kattis-ex-builddeps.cpp)
